@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="杭电2018年面试问题-1更"><meta name="keywords" content="杭电复试,考试相关"><meta name="author" content="Teily"><meta name="copyright" content="Teily"><title>杭电2018年面试问题-1更 | TeilyMa's Blog</title><link rel="shortcut icon" href="/my-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  }
+} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#计算机网络"><span class="toc-number">1.</span> <span class="toc-text">计算机网络</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#数据结构"><span class="toc-number">2.</span> <span class="toc-text">数据结构</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Teily</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">14</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">7</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">TeilyMa's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">杭电2018年面试问题-1更</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-19</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/article/">文章</a><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">1.4k</span><span class="post-meta__separator">|</span><span>阅读时长: 4 分钟</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><blockquote>
+<p>以下面试问题均为网上整理，系面试真题。答案是我根据自己的想法总结写的，不保证正确性，只作为我的一个复习参考！！</p>
+</blockquote>
+<h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><p><strong>Q：</strong>java 和 php 是在哪一层上面的？就是五层模型里的那些，比如数据链路层之类的。<br><strong>A：</strong>应用层</p>
+<p><strong>Q：</strong>互联网分为哪5层？分别有什么功能？<br><strong>A：</strong>分为物理层、数据链路层、网络层、传输层、应用层。</p>
+<ul>
+<li>物理层主要负责在物理线路上传输原始的二进制数据；</li>
+<li>数据链路层主要负责在通信的实体间建立数据链路连接；</li>
+<li>网络层主要负责数据的路由与转发；</li>
+<li>传输层负责向用户提供端到端的通信服务；</li>
+<li>应用层为应用程序提供了网络接口。</li>
+</ul>
+<p><strong>Q：</strong>数据链路层有哪些物理器件，路由器有什么功能，怎样实现该功能<br><strong>A：</strong>数据链路层设备主要有网卡、交换机。路由器主要是进行数据包的转发和路由选择，可以通过人工配置静态路由、使用RIP协议进行动态路由实现该功能</p>
+<p><strong>Q：</strong>数据链路层有什么协议？网络层有什么协议？应用层有什么协议？<br><strong>A：</strong></p>
+<ul>
+<li>数据链路层：PPP协议、CSMA/CD</li>
+<li>网络层协议：IP协议、ICMP协议、IGMP协议、ARP协议</li>
+<li>应用层协议：HTTP协议、SMTP协议、FTP协议、POP3协议、Telnet协议</li>
+</ul>
+<p>（再补充一个）</p>
+<ul>
+<li>传输层协议：TCP/IP协议、UDP协议</li>
+</ul>
+<p><strong>Q：</strong>http协议是如何实现的？<br><strong>A：</strong>利用TCP/IP实现。首先客户端连接到Web服务器，然后发送HTTP请求，其次服务器接受请求并返回HTTP响应，接着释放连接TCP连接，最后客户端浏览器解析HTML内容。</p>
+<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><p><strong>Q：</strong>度为2的树与二叉树的区别？<br><strong>A：</strong>二叉树是有序的，度为2的树是无序的。也就是说二叉树不仅是度为2的树，其孩子还有左右之分，哪怕只有一个结点也是分左右的。</p>
+<p><strong>Q：</strong>最小生成树有几种方法？<br><strong>A：</strong>1、Prim普利姆算法 2、Kruskal克鲁斯卡尔算法<br>普利姆基本思想：在图中取任意顶点v作为起始顶点，并加入集合V；之后遍历与V中顶点相邻的边，选择权值最小且顶点未加入集合V的边，把其加入集合V，直到集合V包含所有顶点结束。<br>克鲁斯卡尔基本思想：在含有n个顶点的图中始终选择权值最小且不会产生回路的边，一直进行此步骤直到选择n-1条边为止。</p>
+<p><strong>Q：</strong>时间复杂度为nlogn的排序算法有哪些？<br><strong>A：</strong>快速排序、堆排序、归并排序</p>
+<p><strong>Q：</strong>快排的操作流程<br><strong>A：</strong>首先选择一个元素作为枢轴，然后头尾指针交替遍历所有元素。比枢轴元素小的放在前面，比枢轴元素大的放在后面，最后将枢轴元素放在头尾指针共同指向的位置，至此为一趟快速排序，重复上述步骤直到元素有序</p>
+<p><strong>Q：</strong>快排的操作流程<br><strong>A：</strong>首先选择一个元素作为枢轴，然后头尾指针交替遍历所有元素。比枢轴元素小的放在前面，比枢轴元素大的放在后面，最后将枢轴元素放在头尾指针共同指向的位置，至此为一趟快速排序，重复上述步骤直到元素有序</p>
+<p><strong>Q：</strong>如何理解数据结构？<br><strong>A：</strong>数据结构是一种在编程中通常会用到的一种工具。用于表达程序中所需要的数据该如何组织，数据与数据之间的关系等。</p>
+<p><strong>Q：</strong>线性表的存储结构？<br><strong>A：</strong>线性表的存储结构有两种：顺序存储、链式存储</p>
+<ul>
+<li>顺序存储：适用于不经常对数据进行增加删除的情况。所有元素均可以随机访问</li>
+<li>链式存储：适用于经常对数据进行增加删除的情况。所有元素只能顺序访问</li>
+</ul>
+<p><strong>Q：</strong>图的存储方式有哪些？<br><strong>A：</strong>图的存储方式有四种：邻接矩阵、邻接表、十字链表、邻接多重表。其中邻接矩阵、邻接表有向图、无向图都适合；十字链表适合存储有向图、邻接多重表适合存储无向图</p>
+<p><strong>Q：</strong>图有什么遍历方式、树有什么遍历方式？<br><strong>A：</strong>图的遍历方式有：广度优先遍历（BFS）、深度优先遍历（DFS）。树的遍历方式有：先根遍历、后根遍历</p>
+<p><strong>Q：</strong>图的遍历与树的遍历有什么区别？<br><strong>A：</strong>首先，图的遍历可能会出现循环遍历的情况，要设置标记数组。而树的遍历则不会出现这种情况。其次，图可能存在不连通的情况，而树不存在，所以图的遍历要对所有的顶点都循环一遍。</p>
+<p><strong>Q：</strong>设计一种效率高的查找算法<br><strong>A：</strong>这个问题真的灵活，主要看自己的想法了，要我回答的话我可能会围绕着哈希查找来答，因为没有哪种查找可以直接与关键字联系起来的了吧，哈哈哈哈哈哈..</p>
+<p><strong>未完待续~~~</strong></p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Teily</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://teily.cn/article/HDU-interview.html">https://teily.cn/article/HDU-interview.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://teily.cn">TeilyMa's Blog</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/杭电复试/">杭电复试</a><a class="post-meta__tags" href="/tags/考试相关/">考试相关</a></div><nav id="pagination"><div class="next-post pull-right"><a href="/article/HDU2018.html"><span>杭电2018年计算机复试真题</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'true' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'t4eDaUnshb4slcBYkndXVQK3-gzGzoHsz',
+  appKey:'qjUWe48CMuBAKPPuLf8fc72I',
+  placeholder:'来说两句吧~~(填上邮箱可以收到我的回复提醒哦)',
+  avatar:'identicon',
+  guest_info:guest_info,
+  pageSize:'10',
+  lang: 'zh-cn'
+})</script></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2018 - 2019 By Teily</div><div class="framework-info"><span>Powered by - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme by - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">TeilyMa's Blog是马书豪的个人博客</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script>if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+}</script></body></html>
