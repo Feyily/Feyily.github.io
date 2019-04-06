@@ -8,13 +8,13 @@
     noSupport: '浏览器不支持'
   }
 } </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#计算机网络"><span class="toc-number">1.</span> <span class="toc-text"> 计算机网络</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#数据结构"><span class="toc-number">2.</span> <span class="toc-text"> 数据结构</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#操作系统"><span class="toc-number">3.</span> <span class="toc-text"> 操作系统</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#组成原理"><span class="toc-number">4.</span> <span class="toc-text"> 组成原理</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#软件工程"><span class="toc-number">5.</span> <span class="toc-text"> 软件工程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#数据库"><span class="toc-number">6.</span> <span class="toc-text"> 数据库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#c相关"><span class="toc-number">7.</span> <span class="toc-text"> C#相关</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Teily</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">25</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">7</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">TeilyMa's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">杭电2018年面试问题-完结</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-19</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/article/">文章</a><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">3.3k</span><span class="post-meta__separator">|</span><span>阅读时长: 9 分钟</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><blockquote>
-<p>以下面试问题均为网上整理，系面试真题。答案是我根据自己的想法总结写的，不保证正确性，只作为我的一个复习参考！！</p>
+<p>以下面试问题均为网上整理，系面试真题。答案是我根据自己的想法总结写的，不保证正确性，只作为我的一个复习参考！</p>
 </blockquote>
 <h1 id="计算机网络"><a class="markdownIt-Anchor" href="#计算机网络"></a> 计算机网络</h1>
-<p>**Q：**java 和 php 是在哪一层上面的？就是五层模型里的那些，比如数据链路层之类的。<br>
-**A：**应用层</p>
-<p>**Q：**互联网分为哪5层？分别有什么功能？<br>
-**A：**分为物理层、数据链路层、网络层、传输层、应用层。</p>
+<p><strong>Q：</strong> java 和 php 是在哪一层上面的？就是五层模型里的那些，比如数据链路层之类的。<br>
+<strong>A：</strong> 应用层</p>
+<p><strong>Q：</strong> 互联网分为哪5层？分别有什么功能？<br>
+<strong>A：</strong> 分为物理层、数据链路层、网络层、传输层、应用层。</p>
 <ul>
 <li>物理层主要负责在物理线路上传输原始的二进制数据；</li>
 <li>数据链路层主要负责在通信的实体间建立数据链路连接；</li>
@@ -22,9 +22,9 @@
 <li>传输层负责向用户提供端到端的通信服务；</li>
 <li>应用层为应用程序提供了网络接口。</li>
 </ul>
-<p>**Q：**数据链路层有哪些物理器件，路由器有什么功能，怎样实现该功能<br>
-**A：**数据链路层设备主要有网卡、交换机。路由器主要是进行数据包的转发和路由选择，可以通过人工配置静态路由、使用RIP协议进行动态路由实现该功能</p>
-<p>**Q：**数据链路层有什么协议？网络层有什么协议？应用层有什么协议？<br>
+<p><strong>Q：</strong> 数据链路层有哪些物理器件，路由器有什么功能，怎样实现该功能<br>
+<strong>A：</strong> 数据链路层设备主要有网卡、交换机。路由器主要是进行数据包的转发和路由选择，可以通过人工配置静态路由、使用RIP协议进行动态路由实现该功能</p>
+<p><strong>Q：</strong> 数据链路层有什么协议？网络层有什么协议？应用层有什么协议？<br>
 <strong>A：</strong></p>
 <ul>
 <li>数据链路层：PPP协议、CSMA/CD</li>
@@ -35,112 +35,112 @@
 <ul>
 <li>传输层协议：TCP/IP协议、UDP协议</li>
 </ul>
-<p>**Q：**http协议是如何实现的？<br>
-**A：**利用TCP/IP实现。首先客户端连接到Web服务器，然后发送HTTP请求，其次服务器接受请求并返回HTTP响应，接着释放连接TCP连接，最后客户端浏览器解析HTML内容。</p>
-<p>**Q：**网络中各个层对应的地址分别是什么？<br>
-**A：**数据链路层：mac地址、网络层：IP地址、应用层：端口</p>
-<p>**Q：**信道复用技术都有哪些？<br>
-**A：**分时复用技术和频分复用技术</p>
+<p><strong>Q：</strong> http协议是如何实现的？<br>
+<strong>A：</strong> 利用TCP/IP实现。首先客户端连接到Web服务器，然后发送HTTP请求，其次服务器接受请求并返回HTTP响应，接着释放连接TCP连接，最后客户端浏览器解析HTML内容。</p>
+<p><strong>Q：</strong> 网络中各个层对应的地址分别是什么？<br>
+<strong>A：</strong> 数据链路层：mac地址、网络层：IP地址、应用层：端口</p>
+<p><strong>Q：</strong> 信道复用技术都有哪些？<br>
+<strong>A：</strong> 分时复用技术和频分复用技术</p>
 <ul>
 <li>时分复用技术：将提供给整个信道传输信息的时间划分成若干时间片（简称时隙），并将这些时隙分配给每一个信号源使用，每一路信号在自己的时隙内独占信道进行数据传输。</li>
 <li>频分复用技术：将用于传输信道的总带宽划分成若干个子频带（或称子信道），每一个子信道传输1路信号。</li>
 </ul>
-<p>**Q：**路由有哪些协议、分别说以下原理？<br>
-**A：**RIP、OSPF协议</p>
+<p><strong>Q：</strong> 路由有哪些协议、分别说以下原理？<br>
+<strong>A：</strong> RIP、OSPF协议</p>
 <ul>
 <li>RIP协议：基于UDP，在自己范围内的发送广播，基于跳数选择最短路径</li>
 <li>OSPF协议：基于IP，没有跳数限制，使用组播发送链路状态更新，只在链路状态变化时使用触发更新</li>
 </ul>
 <h1 id="数据结构"><a class="markdownIt-Anchor" href="#数据结构"></a> 数据结构</h1>
-<p>**Q：**度为2的树与二叉树的区别？<br>
-**A：**二叉树是有序的，度为2的树是无序的。也就是说二叉树不仅是度为2的树，其孩子还有左右之分，哪怕只有一个结点也是分左右的。</p>
-<p>**Q：**最小生成树有几种方法？<br>
-**A：**1、Prim普利姆算法 2、Kruskal克鲁斯卡尔算法<br>
+<p><strong>Q：</strong> 度为2的树与二叉树的区别？<br>
+<strong>A：</strong> 二叉树是有序的，度为2的树是无序的。也就是说二叉树不仅是度为2的树，其孩子还有左右之分，哪怕只有一个结点也是分左右的。</p>
+<p><strong>Q：</strong> 最小生成树有几种方法？<br>
+<strong>A：</strong> 1、Prim普利姆算法 2、Kruskal克鲁斯卡尔算法<br>
 普利姆基本思想：在图中取任意顶点v作为起始顶点，并加入集合V；之后遍历与V中顶点相邻的边，选择权值最小且顶点未加入集合V的边，把其加入集合V，直到集合V包含所有顶点结束。<br>
 克鲁斯卡尔基本思想：在含有n个顶点的图中始终选择权值最小且不会产生回路的边，一直进行此步骤直到选择n-1条边为止。</p>
-<p>**Q：**时间复杂度为nlogn的排序算法有哪些？<br>
-**A：**快速排序、堆排序、归并排序</p>
-<p>**Q：**快排的操作流程<br>
-**A：**首先选择一个元素作为枢轴，然后头尾指针交替遍历所有元素。比枢轴元素小的放在前面，比枢轴元素大的放在后面，最后将枢轴元素放在头尾指针共同指向的位置，至此为一趟快速排序，重复上述步骤直到元素有序</p>
-<p>**Q：**快排的操作流程<br>
-**A：**首先选择一个元素作为枢轴，然后头尾指针交替遍历所有元素。比枢轴元素小的放在前面，比枢轴元素大的放在后面，最后将枢轴元素放在头尾指针共同指向的位置，至此为一趟快速排序，重复上述步骤直到元素有序</p>
-<p>**Q：**如何理解数据结构？<br>
-**A：**数据结构是在编程中通常会用到的一种工具。用于表达程序中所需要的数据该如何组织，数据与数据之间的关系等。</p>
-<p>**Q：**线性表的存储结构？<br>
-**A：**线性表的存储结构有两种：顺序存储、链式存储</p>
+<p><strong>Q：</strong> 时间复杂度为nlogn的排序算法有哪些？<br>
+<strong>A：</strong> 快速排序、堆排序、归并排序</p>
+<p><strong>Q：</strong> 快排的操作流程<br>
+<strong>A：</strong> 首先选择一个元素作为枢轴，然后头尾指针交替遍历所有元素。比枢轴元素小的放在前面，比枢轴元素大的放在后面，最后将枢轴元素放在头尾指针共同指向的位置，至此为一趟快速排序，重复上述步骤直到元素有序</p>
+<p><strong>Q：</strong> 快排的操作流程<br>
+<strong>A：</strong> 首先选择一个元素作为枢轴，然后头尾指针交替遍历所有元素。比枢轴元素小的放在前面，比枢轴元素大的放在后面，最后将枢轴元素放在头尾指针共同指向的位置，至此为一趟快速排序，重复上述步骤直到元素有序</p>
+<p><strong>Q：</strong> 如何理解数据结构？<br>
+<strong>A：</strong> 数据结构是在编程中通常会用到的一种工具。用于表达程序中所需要的数据该如何组织，数据与数据之间的关系等。</p>
+<p><strong>Q：</strong> 线性表的存储结构？<br>
+<strong>A：</strong> 线性表的存储结构有两种：顺序存储、链式存储</p>
 <ul>
 <li>顺序存储：适用于不经常对数据进行增加删除的情况。所有元素均可以随机访问</li>
 <li>链式存储：适用于经常对数据进行增加删除的情况。所有元素只能顺序访问</li>
 </ul>
-<p>**Q：**图的存储方式有哪些？<br>
-**A：**图的存储方式有四种：邻接矩阵、邻接表、十字链表、邻接多重表。其中邻接矩阵、邻接表有向图、无向图都适合；十字链表适合存储有向图、邻接多重表适合存储无向图</p>
-<p>**Q：**图有什么遍历方式、树有什么遍历方式？<br>
-**A：**图的遍历方式有：广度优先遍历（BFS）、深度优先遍历（DFS）。树的遍历方式有：先根遍历、后根遍历</p>
-<p>**Q：**图的遍历与树的遍历有什么区别？<br>
-**A：**首先，图的遍历可能会出现循环遍历的情况，要设置标记数组。而树的遍历则不会出现这种情况。其次，图可能存在不连通的情况，而树不存在，所以图的遍历要对所有的顶点都循环一遍。</p>
-<p>**Q：**设计一种效率高的查找算法<br>
-**A：**这个问题真的灵活，主要看自己的想法了，要我回答的话我可能会围绕着哈希查找来答，因为没有哪种查找可以直接与关键字联系起来的了吧，哈哈哈哈哈哈…</p>
-<p>**Q：**哈希表的特性？如何实现？<br>
-**A：**哈希表是通过关键字进行查找的一种数据结构。要实现这种特性就需要散列函数把元素散列到某个位置，常用的散列方法包括直接寻址法、除留余数法、数字分析法等。</p>
-<p>**Q：**排序算法中哪些最坏和平均的时间复杂度是一样的？<br>
-**A：**直接插入、冒泡、简单选择、堆排序、2路归并、基数排序</p>
+<p><strong>Q：</strong> 图的存储方式有哪些？<br>
+<strong>A：</strong> 图的存储方式有四种：邻接矩阵、邻接表、十字链表、邻接多重表。其中邻接矩阵、邻接表有向图、无向图都适合；十字链表适合存储有向图、邻接多重表适合存储无向图</p>
+<p><strong>Q：</strong> 图有什么遍历方式、树有什么遍历方式？<br>
+<strong>A：</strong> 图的遍历方式有：广度优先遍历（BFS）、深度优先遍历（DFS）。树的遍历方式有：先根遍历、后根遍历</p>
+<p><strong>Q：</strong> 图的遍历与树的遍历有什么区别？<br>
+<strong>A：</strong> 首先，图的遍历可能会出现循环遍历的情况，要设置标记数组。而树的遍历则不会出现这种情况。其次，图可能存在不连通的情况，而树不存在，所以图的遍历要对所有的顶点都循环一遍。</p>
+<p><strong>Q：</strong> 设计一种效率高的查找算法<br>
+<strong>A：</strong> 这个问题真的灵活，主要看自己的想法了，要我回答的话我可能会围绕着哈希查找来答，因为没有哪种查找可以直接与关键字联系起来的了吧，哈哈哈哈哈哈…</p>
+<p><strong>Q：</strong> 哈希表的特性？如何实现？<br>
+<strong>A：</strong> 哈希表是通过关键字进行查找的一种数据结构。要实现这种特性就需要散列函数把元素散列到某个位置，常用的散列方法包括直接寻址法、除留余数法、数字分析法等。</p>
+<p><strong>Q：</strong> 排序算法中哪些最坏和平均的时间复杂度是一样的？<br>
+<strong>A：</strong> 直接插入、冒泡、简单选择、堆排序、2路归并、基数排序</p>
 <p><img src="https://s2.ax1x.com/2019/03/26/AUTM7t.md.png" alt=""></p>
 <h1 id="操作系统"><a class="markdownIt-Anchor" href="#操作系统"></a> 操作系统</h1>
-<p>**Q：**进程与线程的关系？<br>
-**A：**子进程与父进程有不同的代码和数据空间，而多个线程则共享数据空间，每个线程有自己的执行堆栈和程序计数器为其执行上下文。多线程主要是为了节约CPU时间，更好的利用CPU。线程的运行需要使用计算机内存资源和CPU。</p>
-<p>**Q：**什么是死锁？<br>
-**A：**是指两个或两个以上的进程在执行过程中，因争夺资源而造成的一种互相等待的现象，若无外力作用，它们都将无法推进下去。此时称系统处于死锁状态或系统产生了死锁，这些永远在互相等待的进程称为死锁进程。</p>
-<p>**Q：**饥饿与死锁的区别？<br>
-**A：**首先，饥饿与死锁都是由于进程竞争资源导致的。饥饿一般是指，进程在执行的过程中一直有高于当前进程优先级的进程，导致操作系统无法分配资源给当前进程。而死锁是指两个或两个以上的进程在执行过程中，因争夺资源而造成的一种互相等待的现象。</p>
+<p><strong>Q：</strong> 进程与线程的关系？<br>
+<strong>A：</strong> 子进程与父进程有不同的代码和数据空间，而多个线程则共享数据空间，每个线程有自己的执行堆栈和程序计数器为其执行上下文。多线程主要是为了节约CPU时间，更好的利用CPU。线程的运行需要使用计算机内存资源和CPU。</p>
+<p><strong>Q：</strong> 什么是死锁？<br>
+<strong>A：</strong> 是指两个或两个以上的进程在执行过程中，因争夺资源而造成的一种互相等待的现象，若无外力作用，它们都将无法推进下去。此时称系统处于死锁状态或系统产生了死锁，这些永远在互相等待的进程称为死锁进程。</p>
+<p><strong>Q：</strong> 饥饿与死锁的区别？<br>
+<strong>A：</strong> 首先，饥饿与死锁都是由于进程竞争资源导致的。饥饿一般是指，进程在执行的过程中一直有高于当前进程优先级的进程，导致操作系统无法分配资源给当前进程。而死锁是指两个或两个以上的进程在执行过程中，因争夺资源而造成的一种互相等待的现象。</p>
 <h1 id="组成原理"><a class="markdownIt-Anchor" href="#组成原理"></a> 组成原理</h1>
-<p>**Q：**中断的过程是什么，断点的概念？<br>
-**A：**中断过程指的是从中断源发出中断请求开始，CPU响应这个请求，现行程序被中断，转至中断服务程序，直到中断服务程序执行完毕，CPU再返回原来的程序继续执行。断点是在调试程序时人为使程序运行到某个位置而停止的一种手段</p>
+<p><strong>Q：</strong> 中断的过程是什么，断点的概念？<br>
+<strong>A：</strong> 中断过程指的是从中断源发出中断请求开始，CPU响应这个请求，现行程序被中断，转至中断服务程序，直到中断服务程序执行完毕，CPU再返回原来的程序继续执行。断点是在调试程序时人为使程序运行到某个位置而停止的一种手段</p>
 <h1 id="软件工程"><a class="markdownIt-Anchor" href="#软件工程"></a> 软件工程</h1>
-<p>**Q：**软件的生命周期是什么？<br>
-**A：**指软件的产生直到报废的生命周期，周期内包括问题定义、可行性分析、需求分析、开发阶段、维护等阶段</p>
-<p>**Q：**瀑布模型是什么,有什么优缺点？<br>
-**A：**是将软件生存周期的各项活动，规定为按固定顺序而连接的若干阶段工作，形如瀑布流水</p>
+<p><strong>Q：</strong> 软件的生命周期是什么？<br>
+<strong>A：</strong> 指软件的产生直到报废的生命周期，周期内包括问题定义、可行性分析、需求分析、开发阶段、维护等阶段</p>
+<p><strong>Q：</strong> 瀑布模型是什么,有什么优缺点？<br>
+<strong>A：</strong> 是将软件生存周期的各项活动，规定为按固定顺序而连接的若干阶段工作，形如瀑布流水</p>
 <ul>
 <li>优点：为项目提供了按阶段划分的检查点；当前阶段完成后只需关注后续阶段；提供了一个模板，任何软件的开发都可以参照这一模板</li>
 <li>缺点：各个阶段划分完全固定，阶段之间产生大量文档，增加了工作量；开发是线性的只有等整个工程全部结束才可以看到开发成果；不能适应用户的需求变化</li>
 </ul>
 <h1 id="数据库"><a class="markdownIt-Anchor" href="#数据库"></a> 数据库</h1>
-<p>**Q：**数据库有哪些锁，各自的作用，举个例子说明一下<br>
-**A：**数据库中有两种基本锁类型：排它锁、共享锁。</p>
+<p><strong>Q：</strong> 数据库有哪些锁，各自的作用，举个例子说明一下<br>
+<strong>A：</strong> 数据库中有两种基本锁类型：排它锁、共享锁。</p>
 <ul>
 <li>排他锁：当数据对象被加上排它锁时，其他的事务不能对它读取和修改。在更新操作（INSERT、UPDATE 或 DELETE）过程中始终应用排它锁。</li>
 <li>共享锁：加了共享锁的数据对象可以被其他事务读取，但不能修改。对表中数据的查询（SELECT）时都会加共享锁</li>
 </ul>
-<p>**Q：**视图和表的区别是什么？<br>
-**A：**视图是数据库中SQL语句构造出的虚表，我们对视图只能进行查询但不能进行修改。表是数据库中的实体，可以对其进行增删改查操作。</p>
-<p>**Q：**事务的 ACID 特性是什么？<br>
-**A：**数据库中的事务（Transaction）有四个特性，分别是：原子性（Atomicity），一致性（Consistency），隔离性（lsolation），持久性（Durability）</p>
+<p><strong>Q：</strong> 视图和表的区别是什么？<br>
+<strong>A：</strong> 视图是数据库中SQL语句构造出的虚表，我们对视图只能进行查询但不能进行修改。表是数据库中的实体，可以对其进行增删改查操作。</p>
+<p><strong>Q：</strong> 事务的 ACID 特性是什么？<br>
+<strong>A：</strong> 数据库中的事务（Transaction）有四个特性，分别是：原子性（Atomicity），一致性（Consistency），隔离性（lsolation），持久性（Durability）</p>
 <ul>
 <li>原子性：指一个事务是一个不可再分割的工作单位，事务中的操作要么都执行，要么都不执行</li>
 <li>一致性：指在执行一个事务前和后，数据库的完整性约束没有没有被破坏。也就是说事务不能破坏数据库的完整性以及业务逻辑的一致性。</li>
 <li>隔离性：指多个事务并发时，每个事务应该是隔离的，一个事务不应影响其他事务的运行效果</li>
 <li>永久性：指事务的执行更改是永久的</li>
 </ul>
-<p>**Q：**数据库中几种删除都有什么，有什么区别？<br>
-**A：**有delete、truncate、drop三种删除</p>
+<p><strong>Q：</strong> 数据库中几种删除都有什么，有什么区别？<br>
+<strong>A：</strong> 有delete、truncate、drop三种删除</p>
 <ul>
 <li>delete：每次从表中删除一行数据，并将此次删除记录在日志，以便进行事务回滚</li>
 <li>truncate：从表中删除所有数据，且不记录日志，不会触发触发器事件，执行速度快，truncate只能对表使用</li>
 <li>drop：只能对表使用，同时删除表的结构和数据，不可恢复</li>
 </ul>
 <h1 id="c相关"><a class="markdownIt-Anchor" href="#c相关"></a> C#相关</h1>
-<p>**Q：**面向对象的特点<br>
-**A：**抽象、封装、继承、多态</p>
+<p><strong>Q：</strong> 面向对象的特点<br>
+<strong>A：</strong> 抽象、封装、继承、多态</p>
 <ul>
 <li>抽象：抽象性是指将具有一致的数据结构（属性）和行为（操作）的对象抽象成类</li>
 <li>封装：封装是把过程和数据包围起来，对数据的访问只能通过已定义的界面。</li>
 <li>继承：继承性是子类自动共享父类数据结构和方法的机制，这是类之间的一种关系。</li>
 <li>多态：多态性是指相同的操作或函数、过程可作用于多种类型的对象上并获得不同的结果。多态性往往表现为&quot;一个接口，多个功能&quot;。</li>
 </ul>
-<p>**Q：**接口是什么？<br>
-**A：**接口定义了所有类继承接口时应遵循的语法合同。接口定义了语法合同 “是什么” 部分，派生类定义了语法合同 “怎么做” 部分。</p>
-<p>**Q：**C#里面抽象类和接口有什么区别？<br>
-**A：**抽象类表示的是，这个对象是什么。接口表示的是，这个对象能做什么。实现接口的，必须实现接口内所有方法，而抽象类只需要实现部分需要的方法。接口可以多继承而一个类只能继承一个抽象类。</p>
+<p><strong>Q：</strong> 接口是什么？<br>
+<strong>A：</strong> 接口定义了所有类继承接口时应遵循的语法合同。接口定义了语法合同 “是什么” 部分，派生类定义了语法合同 “怎么做” 部分。</p>
+<p><strong>Q：</strong> C#里面抽象类和接口有什么区别？<br>
+<strong>A：</strong> 抽象类表示的是，这个对象是什么。接口表示的是，这个对象能做什么。实现接口的，必须实现接口内所有方法，而抽象类只需要实现部分需要的方法。接口可以多继承而一个类只能继承一个抽象类。</p>
 </div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Teily</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://teily.cn/article/HDU-interview.html">https://teily.cn/article/HDU-interview.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://teily.cn">TeilyMa's Blog</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/杭电复试/">杭电复试</a><a class="post-meta__tags" href="/tags/考试相关/">考试相关</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/article/day0.html"><i class="fa fa-chevron-left">  </i><span>杭电复试记录-0</span></a></div><div class="next-post pull-right"><a href="/article/HDU2018.html"><span>杭电2018年计算机复试真题</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
 var verify = 'true' == true ? true : false;
 var GUEST_INFO = ['nick','mail','link'];
